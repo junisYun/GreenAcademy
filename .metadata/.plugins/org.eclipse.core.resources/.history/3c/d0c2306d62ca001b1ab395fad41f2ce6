@@ -1,0 +1,15 @@
+import java.awt.Color;
+
+// 컴퓨터에서 색상은 자료형이 무엇일까요?
+// int 타입으로 AARRGGBB로 4바이트를 나타낸다.
+public class Ex05 {
+	public static void main(String[] args) {
+		int color = 0xAABBCCDD;
+		int alpha = color >>> 24;
+		System.out.println("alpha = " + Integer.toHexString(alpha));
+		
+		int red = color >> 16 & 0xFF;
+		System.out.println("red = " + Integer.toHexString(red));
+
+	}
+}

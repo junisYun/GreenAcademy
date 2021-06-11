@@ -1,0 +1,17 @@
+package kr.green.ex0610;
+
+import java.util.Scanner;
+
+public class OpEx05 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x , y, z = 0;
+		x = sc.nextInt();
+		y = sc.nextInt();
+		z = sc.nextInt();
+		System.out.printf("avg = %d", (x+y+z)/3);
+		System.out.printf("sum = %d", x+y+z);
+		
+		
+	}
+}

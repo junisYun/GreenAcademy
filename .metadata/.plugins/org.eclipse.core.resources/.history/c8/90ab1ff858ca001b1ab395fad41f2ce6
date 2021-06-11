@@ -1,0 +1,9 @@
+
+public class Ex03 {
+	//쉬프트 연산자
+	public static void main(String[] args) {
+		int n = 1;
+		n = n << 5;
+		System.out.println(n);
+	}
+}

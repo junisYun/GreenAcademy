@@ -1,0 +1,15 @@
+package kr.green.ex0610;
+//byte1 short2 int4 long8
+public class IntegerTypeEx2 {
+	public static void main(String[] args) {
+			int a = 10;
+			int b = 0b10;
+			int c = 010;
+			int d = 0x10;
+//			접두어에 따른 값의 변화
+			System.out.println(a);
+			System.out.println(b);
+			System.out.println(c);
+			System.out.println(d);
+	}
+}

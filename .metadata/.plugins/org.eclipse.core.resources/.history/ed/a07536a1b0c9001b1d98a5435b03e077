@@ -1,0 +1,20 @@
+package kr.green.ex0610;
+
+import java.util.Scanner;
+
+public class OpEx02 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int birth = 920822;        //  4 바이트
+		String birth2 = "920822";  // 13 바이트
+		
+		// int를 사용하자!
+		// 생일자 뽑아서 생일 축하 메시지 보내라
+		// 예 알겠습니다.
+		System.out.println(birth/10000 +"년생");
+		System.out.println((birth%10000)/100 +": 생일자");
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,15 @@
+
+public class Ex03 {
+	//쉬프트 연산자
+	public static void main(String[] args) {
+		int n = 1;
+		System.out.println(n);
+		
+		n = n << 5;
+		System.out.println(n);
+		
+		int x = 10;
+		System.out.println(Integer.toBinaryString(x));
+		System.out.println(Integer.parseInt(Integer.toBinaryString(x), 10));
+	}
+}

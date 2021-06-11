@@ -1,0 +1,15 @@
+package kr.green.ex0610;
+
+public class CharTypeEx {
+	public static void main(String[] args) {
+		char ch = 'A';
+//		char ch2 = "A";//에러:"":는 String이다.
+		char ch3 = ' ';//에러:어떤 글자라도 1개 이상 저장이 되어야 한다. 빈 칸은 가능
+		char ch4 = 65; // ASCCI코드 값 65번에 해당하는 문자 저장.
+		System.out.println("ch: "+ ch);
+		System.out.println("ch4 : "+ ch4);
+		System.out.println("ch4 : "+ (char)(ch4+32));
+		
+		System.out.println("ㄱ의 코드 값은 :"+(char)(55210));
+	}
+}
