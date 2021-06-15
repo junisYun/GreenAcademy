@@ -20,5 +20,6 @@ public class Ex07 {
 		i = 10;
 		i *= 3 + 7;
 		System.out.println(i);
+		
 	}
 }
